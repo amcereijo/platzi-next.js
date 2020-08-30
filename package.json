@@ -7,7 +7,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "next",
+    "dev": "API_HOST=http://localhost:3000 next",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit"
